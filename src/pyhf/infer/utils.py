@@ -62,7 +62,6 @@ def hypotest(
         pdf (~pyhf.pdf.Model): The HistFactory statistical model
         init_pars (Array or Tensor): The initial parameter values to be used for minimization
         par_bounds (Array or Tensor): The parameter value bounds to be used for minimization
-        qtilde (Bool): When ``True`` perform the calculation using the alternative test statistic, :math:`\tilde{q}`, as defined in Equation (62) of :xref:`arXiv:1007.1727`
         calctype (`str`): The calculator to create. Choose either 'asymptotics' (default) or 'toybased'.
 
     Keyword Args:
@@ -118,7 +117,6 @@ def hypotest(
     """
     init_pars = init_pars or pdf.config.suggested_init()
     par_bounds = par_bounds or pdf.config.suggested_bounds()
-    qtilde = kwargs.pop('qtilde', False)
     return_tail_probs = kwargs.pop('return_tail_probs', False)
     return_expected_set = kwargs.pop('return_expected_set', False)
     return_expected = kwargs.pop('return_expected', False)
