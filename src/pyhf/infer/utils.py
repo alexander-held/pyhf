@@ -83,9 +83,9 @@ def hypotest(
         calctype (`str`): The calculator to create. Choose either 'asymptotics' (default) or 'toybased'.
 
     Keyword Args:
-        return_tail_probs (bool): Bool for returning :math:`\textrm{CL}_{s+b}` and :math:`\textrm{CL}_{b}`
-        return_expected (bool): Bool for returning :math:`\textrm{CL}_{\textrm{exp}}`
-        return_expected_set (bool): Bool for returning the :math:`(-2,-1,0,1,2)\sigma` :math:`\textrm{CL}_{\textrm{exp}}` --- the "Brazil band"
+        return_tail_probs (`bool`): Bool for returning :math:`\textrm{CL}_{s+b}` and :math:`\textrm{CL}_{b}`
+        return_expected (`bool`): Bool for returning :math:`\textrm{CL}_{\textrm{exp}}`
+        return_expected_set (`bool`): Bool for returning the :math:`(-2,-1,0,1,2)\sigma` :math:`\textrm{CL}_{\textrm{exp}}` --- the "Brazil band"
 
     Returns:
         Tuple of Floats and lists of Floats:
