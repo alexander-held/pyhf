@@ -62,6 +62,7 @@ xref_links = {"arXiv:1007.1727": ("[1007.1727]", "https://arxiv.org/abs/1007.172
 
 intersphinx_mapping = {
     'scipy': ('https://docs.scipy.org/doc/scipy/reference/', None),
+    'iminuit': ('https://iminuit.readthedocs.io/en/stable/', None),
 }
 
 # Github repo
