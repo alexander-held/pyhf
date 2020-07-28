@@ -8,7 +8,7 @@ extras_require = {
     ],
     'torch': ['torch~=1.2'],
     'jax': ['jax~=0.1,>0.1.51', 'jaxlib~=0.1,>0.1.33'],
-    'xmlio': ['uproot~=3.6'],  # Future proof against uproot4 API changes
+    'xmlio': ['uproot4'],
     'minuit': ['iminuit~=1.4,>=1.4.3'],  # Use "name" keyword in MINUIT optimizer
 }
 extras_require['backends'] = sorted(
