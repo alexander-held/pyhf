@@ -14,3 +14,4 @@ Notebooks:
 
    examples/notebooks/*
    examples/notebooks/binderexample/*
+   examples/notebooks/learn/neyman/*
